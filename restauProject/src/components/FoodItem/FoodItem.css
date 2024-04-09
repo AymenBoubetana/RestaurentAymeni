@@ -1,0 +1,61 @@
+.FoodItem{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px 15px 0 0;
+}
+.FoodItem .l3ayba2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.all{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Food_img{
+  width: 97%;
+  border-radius: 15px 15px 0 0;
+}
+.l3ayba2 .price{
+  color: tomato;
+  font-size: 19px;
+}
+.imagesF{
+  position: relative;
+}
+.imagesF .addBtn{
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  width: 40px;
+}
+.otherF{
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 4px;
+}
+.otherF img{
+  width: 30px;
+}
+
+
+
+
+
+
+
+
+
+

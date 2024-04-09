@@ -1,0 +1,28 @@
+.PlaceOrder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.delivery-info{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.delivery-info input{
+  padding: 7px;
+  outline: none;
+  border:solid 1px rgb(103, 103, 103);
+}
+.delivery-info input::placeholder{
+  font-size: 14px;
+  color: black;
+}
+.delivery-info .first{
+  display: flex;
+  gap: 10px;
+}
+.upp{
+  width:250px;
+  margin-top: -40px;
+}

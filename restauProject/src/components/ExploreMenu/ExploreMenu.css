@@ -1,0 +1,41 @@
+.ExploreMenu{
+  min-height: 40vh;
+  margin-top: 20px;
+}
+.contentE h3{
+  font-size: 27px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+
+}
+.items{
+  display: flex;
+  gap: 14px;
+  overflow-x: scroll;
+  margin-top: 25px;
+}
+.items::-webkit-scrollbar{
+  display: none;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.item img.Active{
+  border: 4px tomato solid;
+  padding: 2px;
+  border-radius: 50%;
+
+}
+hr{
+  height: 1px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.items img{
+  width: 120px;
+}

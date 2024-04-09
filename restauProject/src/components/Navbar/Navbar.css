@@ -1,0 +1,56 @@
+.Navbar{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+  list-style: none;
+}
+li{
+  font-size: 17px;
+  cursor: pointer;
+}
+.sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+.sign button{
+  padding: 12px 30px;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgb(255, 243, 227);
+  border: none;
+  cursor: pointer;
+  border:1px solid rgb(255, 135, 135);
+}
+img{
+  cursor: pointer;
+}
+.search-icon-navbar{
+  position: relative;
+}
+.search-icon-navbar .dot{
+  position: absolute;
+  height: 10px;
+  width:10px;
+  border-radius: 50%;
+  background-color: rgb(255, 90, 90);
+  top: -6px;
+  right: 2px;
+}
+ul .active{
+  padding-bottom: 4px;
+  border-bottom: 3px rgb(255, 89, 6) solid;
+}
+.sign img{
+  width: 24px;
+}

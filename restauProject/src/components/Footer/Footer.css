@@ -1,0 +1,55 @@
+.Footer{
+  background-color: rgb(50, 50, 50);
+  color: white;
+  display: flex;flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 33px;
+}
+.infosF{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.infosF .sid1{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+  justify-content: center;
+  gap: 15px;
+}
+.infosF .sid1 .sid1Img{
+  width:190px;
+}
+.infosF .side2{
+ display: flex;
+ flex-direction: column;
+ 
+ margin-bottom: 49px;
+ justify-content: center;
+ gap: 20px;
+}
+.links img{
+  width: 40px;
+}
+.links{
+  display: flex;
+  gap: 10px;
+}
+.side2 h3{
+  font-size: 20px;
+  color: tomato;
+}
+.paraF p{
+  margin-top: 10px;
+  
+}
+.copyright{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+

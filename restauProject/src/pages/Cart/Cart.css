@@ -1,0 +1,82 @@
+.Cart{
+  margin-top: 50px;
+}
+.Cart hr{
+  height: 1px;
+  background-color: white;
+  border: none;
+  border-top: 1px solid rgb(197, 197, 197);
+}
+.cart-title{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  text-align: center;
+}
+.cart-title .remove{
+  cursor: pointer;
+}
+.cart-details img{
+  width:60px;
+  margin-left: 50px;
+
+
+
+}
+.twosidesCart{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: start;
+}
+.side1Cart{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width:50%;
+  
+}
+.side1Cart .side1Sub{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side1Cart hr{
+  margin: 1px 0;
+}
+.side1Cart button{
+  width: 250px;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 17px;
+  color: wheat;
+  cursor: pointer;
+}
+.side2Cart input{
+  width: 300px;
+  margin-top: 10px;
+  padding: 13px;
+  background-color: gray;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  border-radius: 8px 0 0 8px;
+}
+.side2Cart input::placeholder{
+  color: white;
+}
+.side2Cart button{
+  width:120px;
+  border: none;
+  outline: none;
+  padding: 13px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  margin-right: -10px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
