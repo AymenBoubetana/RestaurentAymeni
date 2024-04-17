@@ -6,6 +6,7 @@ import PlaceOrder from "./pages/PlaceOrder/PlaceOrder"
 import Footer from "./components/Footer/Footer"
 import { useState } from "react"
 import SignPopup from "./components/SignPopup/SignPopup"
+import Admin from "./pages/Admin/Admin"
 
 const App = () => {
   const [ShowSign,setShowSign] = useState(false)
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/' element={<Home/>} />
           <Route path='/cart' element={<Cart/>} />
           <Route path='/order' element={<PlaceOrder/>} />
+          <Route path='/admin' element={<Admin/>} />
         </Routes>
     </div>
     <Footer/>

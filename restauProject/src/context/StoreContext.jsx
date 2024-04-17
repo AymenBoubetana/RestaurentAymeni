@@ -7,7 +7,13 @@ export const contextS = createContext(null);
 const StoreContext = (props) => {
 
   const [cartItem,setcartItem] = useState({});
-
+  const [image,setImage]=useState("");
+  const [price,setprice]=useState(-1);
+  const [name,setName]=useState("");
+  const [desc,setdesc]=useState("");
+  const [catego,setcatego]=useState("");
+  const [hide,setHide]=useState(false);
+  const [row,setrow]=useState(-1)
   const addTocart =(itemId)=>{
     if(!cartItem[itemId]){
       setcartItem((prev)=>({...prev,[itemId]:1}))
@@ -37,6 +43,20 @@ const StoreContext = (props) => {
     addTocart,
     removeFromCart,
     addTotalBill,
+    image,
+    setImage,
+    name,
+    setName,
+    desc,
+    setdesc,
+    price,
+    setprice,
+    hide,
+    setHide,
+    setcatego,
+    catego,
+    row,
+    setrow,
   };
 
   return (

@@ -1,0 +1,79 @@
+.PopUp{
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(90, 90, 90, 0.313);
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.infos{
+  background-color: white;
+  width: 40%;
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.infos h2{
+  text-align: center;
+  
+}
+.elemnts{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.elem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0  10px;
+}
+.elem input{
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  outline: none;
+  width: 50%;
+  margin-left: 20px;
+
+}
+.elem input::placeholder{
+  color: black;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.elemnts .button{
+  width: 100%;
+  text-align: center;
+}
+.elemnts .button button{
+  padding: 7px 15px;
+  width:210px;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  transition: ease 1s;
+}
+.elemnts .button button:hover{
+  transform: scale(1.1);
+  background-color: rgb(114, 17, 0);
+  color: azure;
+}
